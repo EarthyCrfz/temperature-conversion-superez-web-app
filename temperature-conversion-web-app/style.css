@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(203, 203, 203);
+}
+
+h1{
+    color: rgb(106, 80, 80);
+}
+
+form{
+    /* background-color: hsl(0, 0%, 100%); */
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px hsl(0, 0%, 0%, 0.3);
+    background-color: rgb(224, 224, 224);
+}
+
+#textBox{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(170, 155, 155);
+    /* box-shadow: 5px 1px 10px hsl(0, 0%, 0%, 0.3); */
+    border-radius: 10px;
+    margin-bottom: 17px;
+    margin-left: 0px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+#toCelsius{
+    margin-left: 14px;
+}
+
+button{
+    margin-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    background-color: rgb(106, 80, 80);;
+    border: none;
+    box-shadow: none;
+    font-size: 27px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white
+}
+
+button:hover{
+    background-color: rgb(106, 80, 50);
+}
+
+#result{
+    margin-top: 13px;
+    font-weight: normal;
+}
